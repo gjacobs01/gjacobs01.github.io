@@ -1,0 +1,61 @@
+//-----------------Preamble----------------------------------------------------------------------
+// This is file serves as a personal reference of important HTML concepts and syntax
+// The intent of this webpage is not just for submission as a final project for my ENC2135 class
+// but as an oppurtunity to learn web dev.
+//-----------------------------------------------------------------------------------------------
+
+//---------------basics and key concepts-----------
+
+all elements of a webpage are just pieces of content wrappened in flags
+for example, <p> helloworld! </p> , is an example of a simple sentance wrapped
+in the <p> and </p> flag, which denotes start of and end of a paragraph
+
+Some elements do NOT have a closing flag. Images for example use just <img>.
+This is called a Void Flag. technically 
+
+//-------------what should happen on every new website and html page-----------------------
+
+Set up workspace:
+    in project folder/repo, make a file name index.html
+
+    - .html denotes the file type
+    - index denotes the MAIN PAGE for the website (important)
+
+Declare document type:
+    doctype dictates what html version browsers should render page using
+    older html versions use verbose tags, however, all html 5 uses is:
+
+    <!DOCTYPE html>
+
+Create root <html> element:
+    <html> and <\html> are the root elements for the entire page.
+    Ideally, use <html lang = "en"> over <html> to specify language for accesebility.
+
+Create meta <head> element:
+    Remember, meta + information = information that describes information, hence meta,
+    
+    <html> <head> meta tags <\head> <\html>
+
+    always include these in the meta tags area.
+    <meta charset="UTF-8"> + <title>webpage tile</title>
+
+Create <body> element
+    This is the "meat and potatos" of a webpage or whatever the hell people say even though they only
+    say because someone else did. I mean come on theres no way you can be serious come on.
+
+    This area is what is displayed to the user
+
+yay we are done. we learned how to format words. 
+if you think html counts as a programming language, the nicest
+way of saying this is that you are grossly misinformed.
+
+//--------------------useful flags and templates---------------------------------
+
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset ="UTF8">
+        <title>"Jacobs Home | E Portfolio"</title>
+    </head>
+
+</html>
