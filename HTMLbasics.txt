@@ -50,12 +50,3 @@ if you think html counts as a programming language, the nicest
 way of saying this is that you are grossly misinformed.
 
 //--------------------useful flags and templates---------------------------------
-
-<!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset ="UTF8">
-        <title>"Jacobs Home | E Portfolio"</title>
-    </head>
-
-</html>
