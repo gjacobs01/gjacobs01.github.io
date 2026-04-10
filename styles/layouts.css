@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     gap: 64px;
+    padding-bottom: 128px;
     
 }
 /* container for the page heading*/
@@ -22,6 +23,7 @@
     border-bottom: 3px solid #00ff88;
     font-family: 'JetBrains Mono', monospace;
     text-align:left;
+    padding: 8px;
 }
 .navigation-bar-title{
     text-wrap: nowrap;
@@ -102,6 +104,8 @@
     max-width: 600px;
     margin: 0 auto;
     color: #858585;
+    border-left: 2px Solid #00ff88;
+    padding-left: 16px;
     line-height: 1.6;    /* space between lines */
     margin-top: 12px;
 }
