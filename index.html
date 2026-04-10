@@ -9,14 +9,17 @@
 
     <body class = "homepage-background">
         <div class="navigation-bar">
-            <div class ="navigation-bar">
+            <div class = "navigation-bar-title">
                 Gavin Jacobs  |  ENC 2135
             </div>
-            <div class ="subpage-container">
-                <div><a  href="index.html"> Home </a></div>
-                <div><a  href="subpages/reflection.html"> Reflection </a></div>
-                <div><a  href="subpages/revisions.html"> Revisons </a></div>
-                <div><a  href="subpages/artifacts.html"> Artifacts </a></div>
+            <div class = "dropdown">
+                <button onclick = "showDropdown()" class = "dropdown-button">Pages</button>
+                <div id = "nav-dropdown" class = "dropdown-content">  
+                    <a href="index.html"> Home </a>
+                    <a href="subpages/reflection.html"> Reflection </a>
+                    <a href="subpages/revisions.html"> Revisons </a>
+                    <a href="subpages/artifacts.html"> Artifacts </a>
+                </div>
             </div>
         </div>
 
@@ -33,7 +36,7 @@
         </div>
 
 
-        
+         <script src="scripts/nav.js"></script>
     </body>
 
 </html>
