@@ -2,3 +2,9 @@
 @import 'base.css';
 @import 'layouts.css';
 @import 'components.css';
+a:link{ 
+    text-decoration: none; 
+    text-decoration-line: none;
+    background-color: transparent;
+    color: #d4d4d4;
+}
