@@ -1,0 +1,4 @@
+/* main: acts as an interface for seperate css style sheets(stuctured for readability)*/
+@import 'base.css';
+@import 'layouts.css';
+@import 'components.css';

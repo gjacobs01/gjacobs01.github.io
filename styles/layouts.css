@@ -1,0 +1,70 @@
+
+/* container for the page heading*/
+.homepage-header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #d4d4d4;
+    font-family: 'JetBrains Mono', monospace;
+    text-align:center;
+    gap: 32px;
+    border-bottom: 2px solid #569cd6;
+}
+.homepage-header-title{
+    display: flex;
+    flex-wrap:nowrap;
+    text-wrap: nowrap;
+    font-size:22px;
+    flex: 2 0 0%;
+    
+}
+
+/* containers for links to each subpage*/
+.subpage-container{
+    gap: 16px;
+    display:flex;
+    font-size:18px;
+    flex-wrap:wrap;
+
+}
+.subpage-container div{
+    background: rgb(49, 48, 52);
+    height: 30px;
+    width: 200px;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    
+}
+/* Title text and title image containers*/
+.homepage-heading1 {
+    display: flex;
+    flex-wrap: nowrap;
+    text-wrap: wrap;
+}
+.heading1 {
+    font-size:64px;
+    max-width: 850px;
+    margin: 0 auto;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.heading1-subtext {
+    font-size:16px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #858585;
+    line-height: 1.6;    /* space between lines */
+    margin-top: 12px;
+}
+.homepage-heading1 img {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 750px;
+    height: 500px;
+    object-fit: cover;
+    border: 4x groove #858585;
+
+}
