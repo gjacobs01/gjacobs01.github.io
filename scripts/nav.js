@@ -4,7 +4,7 @@ document.getElementById('navbar').innerHTML =`
                 Gavin Jacobs  |  ENC 2135
             </div>
             <div class = "dropdown">
-                <button onclick = "showDropdown()" class = "dropdown-button">${getPageName()}<>  </button>
+                <button onclick = "showDropdown()" class = "dropdown-button">${getPageName()}  </button>
                 <div id = "nav-dropdown" class = "dropdown-content">  
                     <a href="../index.html"> Home </a>
                     <a href="../subpages/reflection.html"> Reflection </a>

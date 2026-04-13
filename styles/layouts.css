@@ -6,7 +6,7 @@
     color: #0a0a0a;
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    gap: 36px;
     padding-bottom: 128px;
     
 }
@@ -88,8 +88,7 @@
 }
 .homepage-heading {
     display: flex;
-    padding-left: 50px;
-    gap: 50px;
+    gap: 25px;
     flex-direction: column;
     border-top: 1px solid #80807f;
     border-bottom: 1px solid #80807f;
@@ -130,11 +129,8 @@
     display: flex;
     flex-wrap: nowrap;
     text-wrap: wrap;
-    
-    gap: 32px;
     font-size:64px;
     max-width: 600px;
-    
     font-weight: bolder;
 }
 .homepage-subtext {
@@ -146,6 +142,27 @@
 }
 /* About me */
 
-.about-me{
+.about-me-container{
     display:flex;
+    padding-left:32px;
+    flex-direction: column;
+    gap:16px;
+    min-width: 50%;
+}
+.about-me-text{
+    color:#80807f;
+    max-width: 400px;
+}
+.about-me-title{
+    display: flex;
+    flex-wrap: nowrap;
+    text-wrap: wrap;
+    font-size:32px;
+    max-width: 600px;
+    font-weight: bolder;
+}
+.image-container img{
+    width: 400px;
+    height: 300px;
+    object-fit:scale-down;
 }
