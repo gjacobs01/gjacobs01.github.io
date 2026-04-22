@@ -1,7 +1,8 @@
 document.getElementById('navbar').innerHTML =`
     <div class="navigation-bar">
             <div class = "navigation-bar-title">
-                Gavin Jacobs  |  ENC 2135
+                <div>Gavin Jacobs  |  ENC 2135</div>
+                <a href = "https://github.com/gjacobs01/gjacobs01.github.io"><img src = "../images/GitHubLogo.png"> </img></a>
             </div>
             <div class = "dropdown">
                 <button onclick = "showDropdown()" class = "dropdown-button">${getPageName()}  </button>
