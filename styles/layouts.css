@@ -78,7 +78,7 @@
     height:500px;
     object-fit:scale-down;
 }
-
+/* revision container*/
 .revision-container{
     display: flex;
     align-items: center;
