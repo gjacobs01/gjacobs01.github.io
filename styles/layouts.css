@@ -79,14 +79,31 @@
     object-fit:scale-down;
 }
 
+.revision-container{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    margin:10%;
+}
 /* Text layouts */
 .reflection{
-    padding-top: 150px;
+    text-indent: 40px;
     display: flex;
+    margin: 20%;
     flex-direction: column;
     align-items: center;
     height: 100vh;
     color:#80807f; 
+    line-height: 1.5;
+}
+.reflection p{
+    padding-bottom: 5px;
+}
+.reflection-title{
+    color:#080808; 
+    font-weight: bolder;
+    font-size: larger;
+    padding-bottom:5px;
 }
 
 .artifact-text-box{
