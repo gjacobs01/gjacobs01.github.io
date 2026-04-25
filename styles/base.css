@@ -33,7 +33,7 @@ a:link {
 .generic-text {
     display: flex;
     padding-left: 10px;
-    font-size:smaller;
+    font-size: larger;
     border-left: 2px solid #00ff88;
     color:#80807f; 
     max-width: 400px;

@@ -16,15 +16,11 @@
 }
 .homepage-gallery{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-size: 16px;
-    color:#80807f;
-    grid-template-columns: auto auto;
-    border-top: 1px solid #80807f;
-    border-left: 1px solid #80807f;
+    flex-direction: column;  /* stack rows vertically */
     width: 50%;
     margin: 0 auto;
+    border-top: 1px solid #80807f;
+    border-left: 1px solid #80807f;
 }
 .gallery-container-box {
     display: flex;
@@ -39,6 +35,65 @@
     border-right: 1px solid #80807f;
 
     min-width: 50%;
+}
+
+
+/* ── Gallery Cards ── */
+.gallery-card {
+    position: relative;
+    display: block;          /* makes <a> behave as block */
+    flex: 1;                 /* each card fills equal width in its row */
+    overflow: hidden;
+    cursor: pointer;
+    border-right: 1px solid #80807f;
+    min-height: 220px;
+    max-height: 300px;
+    text-decoration: none;   /* remove underline from link */
+}
+ 
+/* the actual preview image */
+.gallery-card img {
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+    display: block;
+    transition: transform 0.4s ease;  /* subtle zoom on hover */
+}
+ 
+/* zoom image slightly on hover */
+.gallery-card:hover img {
+    transform: scale(1.04);
+}
+ 
+/* gradient overlay — transparent at top, dark at bottom */
+.gallery-card-gradient {
+    position: absolute;
+    inset: 0;                /* shorthand for top/right/bottom/left: 0 */
+    background: linear-gradient(
+        to bottom,
+        transparent 30%,
+        rgba(0, 0, 0, 0.75) 100%
+    );
+    pointer-events: none;    /* let clicks pass through to the <a> */
+}
+ 
+/* label text sitting above the gradient at the bottom */
+.gallery-card-label {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    color: #d4d4d4;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    pointer-events: none;
+    transition: color 0.3s ease;
+}
+ 
+/* brighten label on hover */
+.gallery-card:hover .gallery-card-label {
+    color: #ffffff;
 }
 
 /* About me */
